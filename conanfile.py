@@ -8,13 +8,13 @@ class BoostNumeric_ConversionConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["numeric_conversion"]
-    requires =  "Boost.Config/1.65.1@bincrafters/testing", \
-                      "Boost.Conversion/1.65.1@bincrafters/testing", \
-                      "Boost.Core/1.65.1@bincrafters/testing", \
-                      "Boost.Mpl/1.65.1@bincrafters/testing", \
-                      "Boost.Preprocessor/1.65.1@bincrafters/testing", \
-                      "Boost.Throw_Exception/1.65.1@bincrafters/testing", \
-                      "Boost.Type_Traits/1.65.1@bincrafters/testing"
+    requires =  "Boost.Config/1.65.1@bincrafters/stable", \
+                      "Boost.Conversion/1.65.1@bincrafters/stable", \
+                      "Boost.Core/1.65.1@bincrafters/stable", \
+                      "Boost.Mpl/1.65.1@bincrafters/stable", \
+                      "Boost.Preprocessor/1.65.1@bincrafters/stable", \
+                      "Boost.Throw_Exception/1.65.1@bincrafters/stable", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/stable"
 
                       #config0 conversion5 core2 mpl5 preprocessor0 throw_exception2 type_traits3
 
