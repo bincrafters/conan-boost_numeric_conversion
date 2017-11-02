@@ -1,4 +1,5 @@
-from conans import ConanFile, tools, os
+from conans import ConanFile, tools
+import os
 
 class BoostNumeric_ConversionConan(ConanFile):
     name = "Boost.Numeric_Conversion"
