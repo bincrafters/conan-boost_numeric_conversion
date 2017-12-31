@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostNumeric_ConversionConan(ConanFile):
     name = "boost_numeric_conversion"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-numeric_conversion"
+    url = "https://github.com/bincrafters/conan-boost_numeric_conversion"
 
     lib_short_names = ["numeric_conversion"]
     is_header_only = True
