@@ -8,7 +8,8 @@ class BoostNumeric_ConversionConan(ConanFile):
     name = "boost_numeric_conversion"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_numeric_conversion"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["numeric_conversion"]
     is_header_only = True
 
